@@ -35,7 +35,7 @@ $token = substr($auth, 7);
 ======================================== */
 
 $stmt = $pdo->prepare(
-    'SELECT id, username, role
+    'SELECT id, username, email, role
      FROM users
      WHERE token = ?
      LIMIT 1'
