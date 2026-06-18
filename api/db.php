@@ -1,5 +1,5 @@
 <?php
-define('DB_HOST', 'db');
+define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'macrohard_db');
 define('DB_USER', 'macrohard_user');
 define('DB_PASS', 'PasswordKuat123!');
